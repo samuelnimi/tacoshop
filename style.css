@@ -1,0 +1,184 @@
+body {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container>div {
+    width: 600px;
+    font-size: 2em;
+}
+
+.Tacos {
+    background-color: yellow;
+}
+
+.Beers {
+    background-color: yellow;
+}
+
+.Wines {
+    background-color: yellow;
+}
+
+.Desserts {
+    background-color: yellow;
+}
+
+.Reservations {
+    background-color: yellow;
+}
+
+.Tacos {
+    margin-right: 50px;
+}
+
+.Beers {
+    margin-right: 50px;
+}
+
+.Wines {
+    margin-right: 50px;
+}
+
+.Desserts {
+    margin-right: 50px;
+}
+
+.hero {
+    width: 770px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-image: url(https://image.shutterstock.com/image-photo/homemade-american-soft-shell-beef-260nw-1973612789.jpg);
+    background-size: cover;
+}
+
+.hero-h1 {
+    background-color: yellow;
+    width: 300px; 
+    text-align: center;
+    margin-left: 30px;
+}
+
+.P-class {
+    background-color: yellow;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30px;
+    margin: 100px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.price1 {
+    text-align: center;
+    padding-top: 0%;
+    position: absolute;
+    left: 65%;
+    top: 80px;
+    background-color: yellow;
+    width: 290px;
+    height: 180px;
+    font-family: Impact;
+    font-size: 30px;
+
+}
+
+.price2 {
+    text-align: center;
+    padding-top: 0%;
+    position: absolute;
+    left: 1%;
+    top: 190px;
+    background-color: yellow;
+    width: 290px;
+    height: 180px;
+    font-family: Impact;
+    font-size: 30px;
+}
+
+.features {
+    display: flex;
+}
+
+.Taco-feature {
+    background-color: white;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Impact; transform: translateZ();
+}
+
+.Taco-feature span{
+    font-size: 50px;
+}
+
+.Beer-feature {
+    background-color: white;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Impact;
+}
+
+.Beer-feature span{
+    font-size: 50px;
+}
+
+.Wine-feature {
+    background-color: white;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Impact;
+}
+
+.Wine-feature span{
+    font-size: 50px;
+}
+
+.Muisic-feature {
+    background-color: white;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Impact;
+}
+
+.Muisic-feature span{
+    font-size: 50px;
+}
+
+.about-Taco {
+    background-color: white;
+    margin-top: 20px;
+    height: 250px;
+    display: flex;
+}
+
+.about-Taco img {
+    margin-left: 20px;
+}
+
+.about-Taco p {
+    font-family: Impact;
+}
+.about-Taco button {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.Instant-Grams p{
+    font-family: Impact;
+    margin-left: 550px;
+}
+
+.Instant-Grams img {
+    padding-right: 20px;
+}
