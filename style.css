@@ -1,5 +1,9 @@
+:root {
+    --yellow: #ffc600;
+}
+
 body {
-    background-color: aqua;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"), linear-gradient(110deg, #f93d66, #6d47d9);;
     padding: 20px;
 }
 
@@ -15,23 +19,23 @@ body {
 }
 
 .Tacos {
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 
 .Beers {
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 
 .Wines {
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 
 .Desserts {
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 
 .Reservations {
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 
 .Tacos {
@@ -54,24 +58,29 @@ body {
     width: 770px;
     height: 400px;
     margin-bottom: 20px;
-    background-image: url(https://image.shutterstock.com/image-photo/homemade-american-soft-shell-beef-260nw-1973612789.jpg);
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
     background-size: cover;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-h1 {
-    background-color: yellow;
-    width: 300px; 
-    text-align: center;
-    margin-left: 30px;
+    background-color: var(--yellow);
+    margin: 0 0 5px 0;
+    padding: 5px;
+    letter-spacing: -1px;
+    font-family: "Silkscreen";
 }
 
 .P-class {
-    background-color: yellow;
-    width: 150px;
-    text-align: center;
-    font-size: 15px;
-    margin-left: 30px;
-    margin: 100px;
+    background-color: var(--yellow);
+    margin: 0 0 5px 0;
+    padding: 5px;
+    letter-spacing: -1px;
+    font-family: "Silkscreen";
 }
 
 .prices {
@@ -86,7 +95,7 @@ body {
     position: absolute;
     left: 65%;
     top: 80px;
-    background-color: yellow;
+    background-color: var(--yellow);
     width: 290px;
     height: 180px;
     font-family: Impact;
@@ -100,7 +109,7 @@ body {
     position: absolute;
     left: 1%;
     top: 190px;
-    background-color: yellow;
+    background-color: var(--yellow);
     width: 290px;
     height: 180px;
     font-family: Impact;
@@ -170,7 +179,7 @@ body {
     font-family: Impact;
 }
 .about-Taco button {
-    background-color: yellow;
+    background-color: var(--yellow);
     cursor: pointer;
 }
 
