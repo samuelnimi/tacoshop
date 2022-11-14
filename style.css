@@ -124,11 +124,12 @@ body {
     background-color: white;
     margin-right: 20px;
     text-align: center;
-    font-family: Impact; transform: translateZ();
+    font-family: Impact;
 }
 
 .Taco-feature span{
     font-size: 50px;
+    color: var(--yellow);
 }
 
 .Beer-feature {
@@ -140,6 +141,7 @@ body {
 
 .Beer-feature span{
     font-size: 50px;
+    color: var(--yellow);
 }
 
 .Wine-feature {
