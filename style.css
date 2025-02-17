@@ -98,7 +98,7 @@ body {
     background-color: var(--yellow);
     width: 290px;
     height: 180px;
-    font-family: Impact;
+    font-family: "Ubuntu", serif;
     font-size: 30px;
 
 }
@@ -112,7 +112,7 @@ body {
     background-color: var(--yellow);
     width: 290px;
     height: 180px;
-    font-family: Impact;
+    font-family: "Ubuntu", serif;
     font-size: 30px;
 }
 
